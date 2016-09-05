@@ -11,7 +11,8 @@ Internet Explorer 11.545.10586
 ```
 
 ## Screenshot 
-[[https://github.com/donaldsteele/html5-responsive-video-player/raw/master/screenshot/demo.gif|alt=demo]]
+![Alt text](https://github.com/donaldsteele/html5-responsive-video-player/raw/master/screenshot/demo.gif "Demo")
+
 
 
 ##Setup
