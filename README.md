@@ -11,19 +11,19 @@ Internet Explorer 11.545.10586
 ```
 
 ## Screenshot 
-[[https://github.com/donaldsteele/html5-responsive-video-player/blob/master/screenshot/demo.png|alt=octocat]]
+[[https://github.com/donaldsteele/html5-responsive-video-player/raw/master/screenshot/demo.gif|alt=demo]]
 
 
 ##Setup
 installing is super simple! the structure should look like this 
-
+```
 /
 -index.php
 -loading.png
 -poster.png
 -/video
 --MyVideo.mp4
-
+```
 
 put index.php, loading.png, poster.png in the same folder
 create a new folder named video 
@@ -32,7 +32,7 @@ put your mp4 video's in the video folder
 
 ## Video Tips
 to maximize compatablity with mobile and desktop devices here is the ffmpeg command i use to convert my video's to a standard format
-
+```
 ffmpeg -i  "input.whatver.format" \ 
 -c:v libx264 \ 
 -profile:v high \ 
@@ -47,3 +47,4 @@ ffmpeg -i  "input.whatver.format" \
 -c:a libfdk_aac \ 
 -b:a 160k \ 
 -y "my_output_video.mp4"
+```
