@@ -38,7 +38,7 @@ ffmpeg -i  "input.whatver.format" \
 -c:v libx264 \ 
 -profile:v high \ 
 -level 5 \ 
--crf 2 \ 
+-crf 22 \ 
 -maxrate 2.5M \ 
 -bufsize 16M \ 
 -pix_fmt yuv420p \ 
